@@ -13,7 +13,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 /* Theme imports */
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css"); /* RadialGlow effect for avatars. | Remove this line to disable. */
-
+ /* Windows titlebar. | Remove this line to disable. */
+:root {
+  /*
    * SoftX variables
    */
   --background-image: url("https://i.imgur.com/Nglfni6.png"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
@@ -47,4 +49,3 @@
   --rs-invisible-color: #747f8d; /* Default: #747f8d */
   --rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
   --rs-phone-visible: block; /* Visibility of the phone for mobile users | Default: block */
-}
